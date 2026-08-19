@@ -7,13 +7,13 @@
   IgnorableNamespaces="mp rescap uap">
 
   <Identity
-    Name="AR3TeHostServer"
-    Publisher="CN=AR3Te"
+    Name="XR5FEHostServer"
+    Publisher="CN=XR5FE"
     Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>AR3Te Host Server</DisplayName>
-    <PublisherDisplayName>AR3Te</PublisherDisplayName>
+    <DisplayName>XR5FE Host Server</DisplayName>
+    <PublisherDisplayName>XR5FE (A fork of AR3Te)</PublisherDisplayName>
     <Logo>Assets\logo.png</Logo>
   </Properties>
 
@@ -35,23 +35,23 @@
   </Resources>
 
   <Applications>
-    <Application Id="AR3TeHostServer"
-      Executable="AR3TeHostServer.exe"
+    <Application Id="XR5FEHostServer"
+      Executable="XR5FEHostServer.exe"
       EntryPoint="Windows.FullTrustApplication">
       <uap:VisualElements
-        DisplayName="AR3Te Host Server"
-        Description="Screen streaming server for AR3Te Android app"
+        DisplayName="XR5FE Host Server"
+        Description="Screen streaming server for XR5FE Android app (a fork of AR3Te)"
         BackgroundColor="#4CAF50"
         Square150x150Logo="Assets\logo.png"
         Square44x44Logo="Assets\logo.png">
         <uap:DefaultTile Wide310x150Logo="Assets\logo.png" />
       </uap:VisualElements>
       <Extensions>
-        <rescap:Extension Category="windows.fullTrustProcess" Executable="AR3TeHostServer.exe" />
+        <rescap:Extension Category="windows.fullTrustProcess" Executable="XR5FEHostServer.exe" />
         <rescap:Extension Category="windows.desktopAppMigration">
           <rescap:DesktopAppMigration>
-            <rescap:DesktopApp Shortcut="%STARTMENU%\AR3Te Host Server.lnk">
-              <rescap:DesktopApp.TargetPath>AR3TeHostServer.exe</rescap:DesktopApp.TargetPath>
+            <rescap:DesktopApp Shortcut="%STARTMENU%\XR5FE Host Server.lnk">
+              <rescap:DesktopApp.TargetPath>XR5FEHostServer.exe</rescap:DesktopApp.TargetPath>
             </rescap:DesktopApp>
           </rescap:DesktopAppMigration>
         </rescap:Extension>

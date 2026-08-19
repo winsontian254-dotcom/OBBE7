@@ -1,7 +1,8 @@
-# AR3Te Host Server - Quick Start Guide
+# XR5FE Host Server - Quick Start Guide
+*A fork of AR3Te*
 
 ## What is this?
-This package contains the desktop server component for the AR3Te Android app. It captures your Windows screen and streams it to your Android device over WiFi.
+This package contains the desktop server component for the XR5FE Android app (a fork of AR3Te). It captures your Windows screen and streams it to your Android device over WiFi.
 
 ## Components Included
 - **Capture.exe** - Screen capture application using Windows Desktop Duplication API
@@ -24,13 +25,13 @@ cd path\to\server
 ```
 
 ### 3. Install
-After building, you'll get `AR3TeHostServer.msix`:
+After building, you'll get `XR5FEHostServer.msix`:
 1. Enable **Developer Mode** in Windows Settings → System → For developers
-2. Double-click `AR3TeHostServer.msix`
+2. Double-click `XR5FEHostServer.msix`
 3. Click **Install**
 
 ### 4. Run
-- Launch "AR3Te Host Server" from Start Menu
+- Launch "XR5FE Host Server" from Start Menu
 - The server will start automatically
 - Connect from your Android app using the displayed IP address
 

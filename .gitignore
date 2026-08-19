@@ -1,23 +1,62 @@
 ```
+# Windows app packaging
+AppxManifest.xml
+
 # Build artifacts
-BUILD_INSTRUCTIONS.md
-build-msix.ps1
+*.appx
+*.msix
+*.msi
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
-# Environment
-.env
-.env.local
-*.env.*
+# OS specific
+.DS_Store
+Thumbs.db
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# Build systems
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 ```
