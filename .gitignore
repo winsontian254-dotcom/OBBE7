@@ -1,30 +1,62 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+```
+# Windows app packaging
+AppxManifest.xml
+
+# Build artifacts
+*.appx
+*.msix
+*.msi
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# OS specific
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+Thumbs.db
 
-# Node
-server/node_modules/
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Server build artifacts
-server/bin/
-server/obj/
-server/*.dll
-server/*.exe
-server/*.pdb
-server/*.deps.json
-server/*.runtimeconfig.json
-server/*.bin
-server/*.err
-.gradle-home/
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# Build systems
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+```
